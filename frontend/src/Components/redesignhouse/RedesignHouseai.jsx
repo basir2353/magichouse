@@ -136,7 +136,7 @@ const RedesignComponent = () => {
   };
   return (
     <div className="container">
-      <div className="row mt-5">
+      <div className="row" style={{marginTop:'5rem'}}>
         <LoadingOverlay open={loading} />
 
         <div className="col-xl-4   col-lg-4  col-md-12 col-sm-12 col-xs-12">
@@ -194,11 +194,12 @@ const RedesignComponent = () => {
                   />
                 </div>
               )}
-              <span > Select Room type</span>
 
 
             </div>
-            <div className="dropdown-container mt-5">
+          <p  className="mt-3">  <span> Select Room type</span></p>
+
+            <div className="dropdown-container">
               <select className="dropdown" onChange={(e) => setSelectedRoomType(e.target.value)}
               >
                 <option value="Living Room">Living Room</option>
@@ -213,7 +214,7 @@ const RedesignComponent = () => {
                 <option value="Gaming Room">Gaming Room </option>
               </select>
             </div>
-            <span className=''>Selected almost four: </span>
+            <p  className='mt-3'><span>Select Room Themes (up to 4) </span></p>
             <ImageGrid rows={rows} selectedImages={selectedImages} handleSubmit={handleSubmit} toggleImageSelection={toggleImageSelection} />
           </div>
         </div>

@@ -26,7 +26,7 @@ const Home = () => {
             Our Satisfied customers   <br /> and revamp your space today!
           </p>
           <div className="button-container">
-            <Link to="/desiging" className="log-button">Transform Your House</Link>
+            <Link to="/desiging" className="log-button">TRANSFORM YOUR HOUSE</Link>
           </div>
         </div>
         <div className="top-right-section">

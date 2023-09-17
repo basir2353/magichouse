@@ -33,11 +33,12 @@
   /* font-weight: bold; */
   /* margin-left: 2rem; */
   margin-right: 4rem;
+  font-weight: 100;
   font-family: 'Poppins', sans-serif !important;
 }
 
 .dropdown {
-  padding: 12px 77px;
+  padding: 10px 10px;
   /* width: 99px; */
   border: 1px solid #ccc;
   /* margin-right: 1rem; */
@@ -133,7 +134,7 @@
 .svg-icon {
   position: absolute;
   top: 14px;
-  left: 59px;
+  left: 78px;
   transform: translate(-50%, -50%);
   z-index: 1; /* Ensure the SVG is on top */
 }

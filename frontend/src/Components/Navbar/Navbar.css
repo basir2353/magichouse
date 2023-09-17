@@ -38,7 +38,9 @@
   color: white;
   background-color: black;
 }
-
+.navbar-dark .navbar-nav .nav-link {
+  color: white !important;
+}
 .logedtext {
   display: flex;
   justify-content: center;
@@ -47,18 +49,30 @@
   margin-right: 1rem;
   background-color: black;
 }
+.navbar-dark .navbar-nav .nav-link1{
+  color: #CB0D7F !important;
+  margin-left: 1rem;
+}
 
+.margin-left{
+margin-left: 1rem;
+}
+.navbar-dark .navbar-toggler{
+  color: black !important;
+  border-color: black !important;
+}
 .btn-login {
   background: linear-gradient(90deg, rgba(230,0,126,1) 0%, rgba(102,36,131,1) 73%);
   border: none;
   border-radius: 25px;
-  padding: 10px 30px;
+  padding: 10px 30px !important;
   color: white;
   cursor: pinter;
   /* font-weight: bold; */
   font-family: 'Poppins', sans-serif !important;
   margin-right: 3rem;
-
+/* width: 40%; */
+font: 100;
 }
 
 .btn-login:hover {
